@@ -15,7 +15,7 @@ const content = [
         <a href="https://www.nordita.org/" rel='noreferrer noopener' target='blank'> Nordita </a>
       on the <a href="https://omdb.mathub.io" rel='noreferrer noopener' target='blank'> OMDB</a>,
       a database of organic crystals.
-      I got my BS on Physics at Universidad de La Laguna, and am currently finishing
+      I got my BS on Physics at Universidad de La Laguna, and I am currently finishing
       my Master's thesis on Computational Physics in Machine Learning for magnetic
       properties.
       </p>
@@ -41,7 +41,7 @@ const content = [
             <h4 css={{ marginBottom: 0 }}>Nordic Institute for Theoretical Physics (Nordita)</h4>
             <i>A. V. Balatsky's group, Roslagstullsbacken 23, 106 91 Stockholm, Sweden</i>
           </div>
-          Developed the Organic Materials Database (<a href="https://omdb.mathub.io" rel='noreferrer noopener' target='blank'>OMDB</a>), assisted researchers in multiple Condensed Matter and Machine Learning projects. Currently also working in my Master's thesis: Machine Learning for Magnetism on Crystals Structures.
+          Developing the Organic Materials Database (<a href="https://omdb.mathub.io" rel='noreferrer noopener' target='blank'>OMDB</a>), assisting researchers in multiple Condensed Matter and Machine Learning projects. Currently also working in my Master's thesis: Machine Learning for Magnetism on Crystals Structures.
         </div>
       }
     />

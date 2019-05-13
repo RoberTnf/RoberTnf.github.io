@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
         >
           <main >{children}</main>
           <div>
-            © {new Date().getFullYear()}, Source code at: <a href="https://github.com/RoberTnf/RoberTnf" rel='noreferrer noopener' target='blank'> https://github.com/RoberTnf/RoberTnf </a>
+            © {new Date().getFullYear()}, Source code at: <a href="https://github.com/RoberTnf/robertnf.github.io" rel='noreferrer noopener' target='blank'> https://github.com/RoberTnf/robertnf.github.io </a>
           </div>
         </div>
       </>

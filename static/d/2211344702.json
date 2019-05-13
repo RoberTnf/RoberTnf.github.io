@@ -1,0 +1,1 @@
+{"errors":[{"message":"VipsJpeg: Invalid SOS parameters for sequential JPEG\nVipsJpeg: out of order read at line 0\n","locations":[{"line":4,"column":7}],"path":["placeholderImage","childImageSharp","fluid"]}],"data":{"placeholderImage":{"childImageSharp":{"fluid":null}}}}

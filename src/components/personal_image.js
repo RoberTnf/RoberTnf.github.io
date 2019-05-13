@@ -22,7 +22,7 @@ const Image = () => (
           # Specify the image processing specifications right in the query.
           # Makes it trivial to update as your page's design changes.
           fixed(quality: 90) {
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_noBase64
           }
         }
       }

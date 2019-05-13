@@ -1,33 +1,44 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "./personal_image"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+        margin: `2vw auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        textAlign: "center"
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+      <Link
+        to="/"
+      >
+        <Image />
+      </Link>
+      <Link
+        to="/"
+      >
+        <h1 style={{
+          margin: "16px",
+          fontSize: "46px"
+        }}>
           {siteTitle}
-        </Link>
-      </h1>
+        </h1>
+      </Link>
+      <h2>
+        Physicist, Full Stack Web Developer & Data Scientist
+      </h2>
+      <p>
+        <Link to="mailto:robertodiaztnf@gmail.com"><span className="material-icons" css={{ verticalAlign: "middle" }}>mail_outline</span> <span>robertodiaztnf@gmail.com</span></Link>
+      </p>
     </div>
+    <hr />
   </header>
 )
 

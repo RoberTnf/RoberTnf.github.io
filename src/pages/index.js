@@ -56,7 +56,7 @@ const content = [
             <div>
               <b>MSc thesis </b><i>- Nordic Institute for Theoretical Physics (Nordita), A. V. Balatsky's group.</i>
             </div>
-              <p>Finished with the maximum grade my Master's thesis: <i>Machine Learning for Magnetism on Crystals Structures.</i></p>
+              <p>Finished with the maximum grade my Master's thesis: <i>Machine Learning in Matter at Different Scales.</i></p>
               
               <p>Presented in the American Physical Society's Boston March Meeting 2019 the following:
 

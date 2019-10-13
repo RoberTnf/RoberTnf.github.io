@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
         </h1>
       </Link>
       <h2>
-        Physicist, Full Stack Web Developer & Data Scientist
+        Data Scientist, Physicist & Full Stack Web Developer
       </h2>
       <p>
         <Link to="mailto:robertodiaztnf@gmail.com"><span className="material-icons" css={{ verticalAlign: "middle" }}>mail_outline</span> <span>robertodiaztnf@gmail.com</span></Link>

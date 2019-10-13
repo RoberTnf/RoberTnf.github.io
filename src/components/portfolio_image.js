@@ -29,7 +29,7 @@ const PortfolioImage = (props) => (
       const images = data.allFile.edges
       let selected_img = undefined
       for (let img of images) {
-        if (img.node.name == props.name) {
+        if (img.node.name === props.name) {
           selected_img = img.node.childImageSharp
         }
       }

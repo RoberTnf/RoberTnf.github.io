@@ -23,18 +23,6 @@ const content = [
       </p>
   },
   {
-    title: "Skills",
-    text:
-      <div>
-        <Skill title="Machine Learning" text="Reinforcement learning, supervised learning." />
-        <Skill title="Programming" text="Python with the science and machine learning stack: Numpy, Pandas, matplotlib, sklearn, tensorboard, etc." />
-        <Skill title="Front End" text="Javascript, React, CSS, HTML." />
-        <Skill title="Back End" text="Django, Flask, Laravel, PHP, SQL." />
-        <Skill title="Computing" text="Linux, LaTeX." />
-        <Skill title="Physics" text="Condensed Matter, Magnetism." />
-      </div>
-  },
-  {
     title: "Work Experience",
     text:
       <div>
@@ -48,7 +36,7 @@ const content = [
             Developing Machine Learning algorithms to reduce energy consumption in buildings and fight against climate change.
           </div>
         }
-      />
+        />
       <Experience
         dates="2018 - 2019"
         content={
@@ -67,8 +55,6 @@ const content = [
               </ul>
               </p>
           </div>
-
-          
         }
       />
       <Experience
@@ -81,7 +67,7 @@ const content = [
             Developed the Organic Materials Database (<a href="https://omdb.mathub.io" rel='noreferrer noopener' target='blank'>OMDB</a>), assisted researchers in multiple Condensed Matter and Machine Learning projects.
           </div>
         }
-      />
+        />
     </div>
   },
   {
@@ -94,7 +80,7 @@ const content = [
             <p><b>Master's degree in Computational Physics</b><br /><i>Stockholm University, Stockholm, Sweden.</i></p>
           </div>
         }
-      />
+        />
       <Experience
         dates="2012 - 2017"
         content={
@@ -102,9 +88,21 @@ const content = [
             <p><b>Bachelor's degree in Physics</b><br /><i>Universidad de La Laguna, Spain.</i></p>
           </div>
         }
-      />
+        />
     </div>
   },
+    {
+      title: "Skills",
+      text:
+        <div>
+          <Skill title="Machine Learning" text="Reinforcement learning, supervised learning." />
+          <Skill title="Programming" text="Python with the science and machine learning stack: Numpy, Pandas, matplotlib, sklearn, tensorboard, etc." />
+          <Skill title="Front End" text="Javascript, React, CSS, HTML." />
+          <Skill title="Back End" text="Django, Flask, Laravel, PHP, SQL." />
+          <Skill title="Computing" text="Linux, LaTeX." />
+          <Skill title="Physics" text="Condensed Matter, Magnetism." />
+        </div>
+    },
   {
     title: "Portfolio",
     text: <div>

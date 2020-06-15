@@ -11,7 +11,7 @@ const content = [
   {
     title: "About me",
     text: <p>
-      I love programming, science and reading. I am working at <a href="https://myrspoven.se/" rel='noreferrer noopener' target='blank'>Myrspoven</a> as a Data
+      I love programming, science and reading. I am working at <a href="https://myrspoven.se/" rel='noreferrer noopener' target='blank'>Myrspoven</a> as Lead Data
       Scientist, developing Machine Learning models for intelligent control of buildings to reduce energy consumption and
       fight against climate change.
        {/* I am working at
@@ -34,7 +34,7 @@ const content = [
               <b>Lead Data Scientist </b>- <i>Myrspoven</i>
             </div>
             Leading a team with the objective of reducing energy consumption in buildings by controlling their Heating, ventilation, and air conditioning (HVAC)
-            systems using Artificial intelligence (AI).
+            systems using Machine Learning (ML).
           </div>
         }
         />

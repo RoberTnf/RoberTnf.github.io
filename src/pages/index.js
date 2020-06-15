@@ -27,17 +27,45 @@ const content = [
     text:
       <div>
         <Experience
-        dates="2019 - Present"
+        dates="Feb 2020 - Present"
+        content={
+          <div>
+            <div>
+              <b>Lead Data Scientist </b>- <i>Myrspoven</i>
+            </div>
+            Leading a team with the objective of reducing energy consumption in buildings by controlling their Heating, ventilation, and air conditioning (HVAC)
+            systems using Artificial intelligence (AI).
+          </div>
+        }
+        />
+        <Experience
+        dates="Oct 2019 - Feb 2020"
         content={
           <div>
             <div>
               <b>Data Scientist </b>- <i>Myrspoven</i>
             </div>
-            Developing Machine Learning algorithms to reduce energy consumption in buildings and fight against climate change.
+            Developed Machine Learning algorithms to reduce energy consumption in buildings and fight against climate change.
           </div>
         }
         />
       <Experience
+        dates="2017 - 2019"
+        content={
+          <div>
+            <div>
+              <b>Student assistant </b><i>- Nordic Institute for Theoretical Physics (Nordita), A. V. Balatsky's group.</i>
+            </div>
+            Developed the Organic Materials Database (<a href="https://omdb.mathub.io" rel='noreferrer noopener' target='blank'>OMDB</a>), assisted researchers in multiple Condensed Matter and Machine Learning projects.
+          </div>
+        }
+        />
+    </div>
+  },
+  {
+    title: "Education",
+    text: <div>
+            <Experience
         dates="2018 - 2019"
         content={
           <div>
@@ -57,22 +85,6 @@ const content = [
           </div>
         }
       />
-      <Experience
-        dates="2017 - 2019"
-        content={
-          <div>
-            <div>
-              <b>Student assistant </b><i>- Nordic Institute for Theoretical Physics (Nordita), A. V. Balatsky's group.</i>
-            </div>
-            Developed the Organic Materials Database (<a href="https://omdb.mathub.io" rel='noreferrer noopener' target='blank'>OMDB</a>), assisted researchers in multiple Condensed Matter and Machine Learning projects.
-          </div>
-        }
-        />
-    </div>
-  },
-  {
-    title: "Education",
-    text: <div>
       <Experience
         dates="2017 - 2019"
         content={
